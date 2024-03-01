@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
  
-app.get('/Lore', (req, res) => {
+app.get('/', (req, res) => {
   res.send("Matias Fernando Munives");
 });
 
-app.get('/', (req, res) => {
+app.get('/Lore', (req, res) => {
   res.send("Lorena Fernanda Artaza");
 });
 
