@@ -1,2 +1,8 @@
-//Render for mongo database https://cse341-project1-munives.onrender.com/users
-//Render https://cse341-project1-munives.onrender.com
+//Render for mongo database
+https://cse341-project1-munives.onrender.com/users
+
+//Render
+https://cse341-project1-munives.onrender.com
+
+//Render Api-Docs
+https://cse341-project1-munives-1.onrender.com/api-docs/
