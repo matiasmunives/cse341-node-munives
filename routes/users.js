@@ -1,10 +1,15 @@
-const express = require('express');
+/* eslint-disable prettier/prettier */
+/* eslint-disable no-undef */
+const express = require("express");
 const router = express.Router();
 
-const usersController = require('../controllers/users');
+const usersController = require("../controllers/users");
 
-router.get('/', usersController.getAll);
+router.get("/", usersController.getAll);
+router.get("/:id", usersController.getSingle);
+router.post("/", usersController.createUser);
+router.put("/:id", usersController.updateUser);
+router.delete("/:id", usersController.deleteUser);
 
-router.get('/:id', usersController.getSingle);
 
 module.exports = router;
