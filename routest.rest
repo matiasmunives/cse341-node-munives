@@ -12,11 +12,11 @@ POST http://localhost:3000/users
 Content-type: application/json
 
 {
-"firstName": "Julieta",
+"firstName": "Evangelina",
 "lastName": "Munives",
-"email": "julietajm@test.com",
-"favoriteColor": "Pink",
-"birthday": "17/01/20"
+"email": "evangelinavm@test.com",
+"favoriteColor": "Green",
+"birthday": "30/01/10"
 }
 
 ### PUT contact (update)
@@ -28,9 +28,9 @@ Content-type: application/json
 "firstName": "Matias",
 "lastName": "Munives",
 "email": "matiasmm@test.com",
-"favoriteColor": "Blue",
+"favoriteColor": "Gray",
 "birthday": "15/06/83"
 }
 
 ### DELETE contact
-DELETE http://localhost:3000/users/65ed267b10414c079c4f5129 HTTP/1.1
+DELETE http://localhost:3000/users/65ed34c271b44d724fe0826f HTTP/1.1
