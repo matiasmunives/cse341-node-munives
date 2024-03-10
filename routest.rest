@@ -34,3 +34,6 @@ Content-type: application/json
 
 ### DELETE contact
 DELETE http://localhost:3000/users/65ed34c271b44d724fe0826f HTTP/1.1
+
+### TRY RENDER
+http://cse341-project1-munives-1.onrender.com/api-docs/
