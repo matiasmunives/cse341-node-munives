@@ -12,11 +12,11 @@ POST http://localhost:3000/users
 Content-type: application/json
 
 {
-"firstName": "Evangelina",
+"firstName": "Catalina",
 "lastName": "Munives",
-"email": "evangelinavm@test.com",
-"favoriteColor": "Green",
-"birthday": "30/01/10"
+"email": "catalinam@test.com",
+"favoriteColor": "Black",
+"birthday": "14/04/19"
 }
 
 ### PUT contact (update)
@@ -28,12 +28,12 @@ Content-type: application/json
 "firstName": "Matias",
 "lastName": "Munives",
 "email": "matiasmm@test.com",
-"favoriteColor": "Gray",
+"favoriteColor": "Blue",
 "birthday": "15/06/83"
 }
 
 ### DELETE contact
-DELETE http://localhost:3000/users/65ed34c271b44d724fe0826f HTTP/1.1
+DELETE http://localhost:3000/users/65ed3ba47b4aa4521a40849e HTTP/1.1
 
 ### TRY RENDER
 http://cse341-project1-munives-1.onrender.com/api-docs/
